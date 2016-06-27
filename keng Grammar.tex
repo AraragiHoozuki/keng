@@ -1,4 +1,8 @@
-\documentclass{article}
+%!TEX program = xelatex
+\documentclass[UTF8]{ctexbook}
+
+\usepackage{fontspec}
+\setmainfont[Mapping=tex -text]{Palemonas}
 
 \title{Keng go go ma}
 \author{Rholin}
@@ -7,5 +11,37 @@
 \maketitle
 
 \section{前言}
-說是前言吧，其實並不知道該寫啥……
+這是一篇坑語 (keng go) 的語法，大概在有生之年能夠寫完。按照我的預想，坑語應該是一個有那麼一點文言風格的分析語。不過現在看來，其發展路線已經遠遠偏離了我的本意……
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\chapter{音系}
+\section{元音}
+坑語一共有 6 個單元音，分別是 a [a], e [e], i [i], o [o], u [u], y [y]. 單元音不分長短。此外 i, u 可以作 a, e 的韻尾 (ai, au, ei, eu); i, u, y 可以作任何元音的介音。
+
+\section{輔音}
+脣：p [b], b [b], w [w], m [m] \par
+齒/齒齦：t [t], d [d], n [n], r [r], l [l], s [s], z [z] \par
+捲舌：ṭ [ʈ], ḍ [ɖ], ṇ [ɳ], ḷ [ɭ] \par
+硬齶：j [j] \par
+軟齶：k [k], g [g], ng [ŋ] \par
+
+\section{音節結構}
+(s)C(C)(V)V(V/C)(s)(ḷ), 具體是什麼意思我就不說了，反正說了也沒用，以後還是我怎麼高興怎麼來。
+
+%------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\chapter{詞法}
+\section{構詞法}
+\subsection{派生/轉化}
+增加介音 [i]（名/形 > 動）：\textit{a}「存在之物、存在」> \textit{ja}「是」\par
+g-j- 構成動詞反復式：\textit{jet}「吃」> \textit{gjjet}「吃藥」、\textit{pjut}「切開，剪開」> \textit{gpjjut}「裁剪」\par
+s- 構成動詞/形容詞使動：\textit{maf}「動」> \textit{smaf}「感動、使變化」、\textit{griz}「返回」> \textit{sgriz}「遣返」、\textit{alg}「快樂」> \textit{salg}「使快樂」 \par
+弱化-r 構成動作的結果：\textit{pjut}「切」> \textit{bjutr}「片」、\textit{brjo}「死」> \textit{wrjor}「屍」\par
+轉化（不改變詞形的情況下詞義或詞性改變）：\textit{leng}「工作（動）」> \textit{leng}「工人」、\textit{kal}「機會」> \textit{kal}「投機」\par
+
+\subsection{合成}
+名+動，表示執行該動作者：\textit{pmeut-pjut}「帆」（風+切）、\textit{ka-pjut}「寒風」（花+切）。實際使用中連字符可以省略。\textit{nam-du}「牛逼的人」（天+干） \par
+形+名：\textit{bal-rang}「祭司」（白+手）、\textit{wnau-hvat}「傻逼」（愚+魚）\par
+名+名：\textit{nam-omp}「天目」（天+目）、\textit{pmeut-put}「風刃（大概是一種低級法術的名字？）」（風+刃）\par
+
+
 \end{document}
